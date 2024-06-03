@@ -1,0 +1,111 @@
+.container-fluid{
+    list-style-type:none;
+	margin:0;
+	padding:0px;
+	overflow:none;
+	background-color:black;
+	border:2px solid #333;
+	position: -webkit-sticky;
+    position: sticky;
+	top:0;
+}
+.nav-item a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:20px 20px;
+	text-decoration:none;
+}
+h1{
+	color:black;
+	font-size:75px;
+}
+.card-body{
+    color: black;
+}
+body{
+	
+	background:url(image11.jpg);
+	font-family:Arial,Helvetica,sans-serif;
+	padding:0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2px solid black;
+	color: white;
+	font-size: 15px;
+	margin: 0; 
+}
+*{
+	box-sizing:border-box;
+}
+
+.logo{
+	position:absolute;
+	margin-top:0px;
+	padding-right:100px;
+}
+
+.navi{
+	list-style-type:none;
+	margin:0;
+	padding:0px;
+	overflow:hidden;
+	background-color:black;
+	border:2px solid #333;
+	position: -webkit-sticky;
+    position: sticky;
+	top:0;
+}
+li{
+	font-size:15px;
+	float:left;
+}
+
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:20px 20px;
+	text-decoration:none;
+}
+
+li a:hover:not(.bro){
+  background-color:#333;
+  border:2px solid none;
+}
+
+.the {
+  background-color:black;
+  
+}
+
+.form{
+	background-color:black;
+	border:5px solid #333;
+	padding:20px;
+	width:550px;
+	margin:auto;
+	background:black;
+}
+
+.footer {
+    left:0;
+    bottom: 0;
+    padding:1.5%;
+    height:20%;
+    width: 100%;
+    background-color:black;
+    color:white;
+    text-align: center;
+    border:2px solid #333;
+ }
+ .SocialLogos img {
+
+	width:40px;
+	height:40px;
+}
+.logo{
+	position:absolute;
+	margin-top:0px;
+	padding-right:100px;
+}
